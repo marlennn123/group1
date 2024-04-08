@@ -1,0 +1,52 @@
+.click{
+  padding: 10px 25px;
+  background: green;
+  border-radius: 10px;
+}
+.click1{
+  padding: 10px 25px;
+  background: red;
+  border-radius: 10px;
+}
+body{
+  background: rgb(254, 244, 255);
+  margin: 100px 40%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  border: 2px solid black;
+  padding: 40px;
+  border-radius: 10px;
+  background: #000;
+}
+.container h1{
+  color: white;
+}
+.btn{
+  margin: auto 27% ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.email{
+  padding: 7px 50px;
+  border-radius: 10px;
+}
+.pass{
+  padding: 7px 50px;
+  border-radius: 10px;
+}
+.inp{
+  padding: 7px 50px;
+  border-radius: 15px;
+  background: greenyellow;
+  color: white;
+}
